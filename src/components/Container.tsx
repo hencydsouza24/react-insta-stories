@@ -191,16 +191,16 @@ export default function () {
           <div
             style={{ width: "50%", zIndex: 999 }}
             onTouchStart={debouncePause}
-            onTouchEnd={mouseUp(rtl ? "next" : "previous")}
+            onTouchEnd={mouseUp("previous")}
             onMouseDown={debouncePause}
-            onMouseUp={mouseUp(rtl ? "next" : "previous")}
+            onMouseUp={mouseUp("previous")}
           />
           <div
             style={{ width: "50%", zIndex: 999 }}
             onTouchStart={debouncePause}
-            onTouchEnd={mouseUp(rtl ? "previous" : "next")}
+            onTouchEnd={mouseUp("next")}
             onMouseDown={debouncePause}
-            onMouseUp={mouseUp(rtl ? "previous" : "next")}
+            onMouseUp={mouseUp("next")}
           />
         </div>
       )}
@@ -221,5 +221,6 @@ const styles = {
     height: "inherit",
     width: "inherit",
     display: "flex",
+    direction: "ltr" as const,
   },
 };
