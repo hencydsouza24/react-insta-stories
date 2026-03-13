@@ -1,5 +1,5 @@
 {
-	"name": "@hencypace/react-insta-stories-rtl",
+	"name": "@hencydsouza24/react-insta-stories-rtl",
 	"version": "2.8.1",
 	"description": "A React component for Instagram like stories (with RTL support)",
 	"main": "dist/index.js",

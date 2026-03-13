@@ -27,7 +27,7 @@ RTL support enables proper layout behavior for right-to-left languages such as A
 ## Install
 
 ```bash
-npm install @hencypace/react-insta-stories-rtl
+npm install @hencydsouza24/react-insta-stories-rtl
 ```
 
 ## Demo
@@ -40,7 +40,7 @@ See it in action here: https://mohitk05.github.io/react-insta-stories/
 ```jsx
 import React, { Component } from "react";
 
-import Stories from "@hencypace/react-insta-stories-rtl";
+import Stories from "@hencydsouza24/react-insta-stories-rtl";
 
 const App = () => {
   return (
@@ -241,7 +241,7 @@ If you wish to have a bare minimum setup and only need to show image stories, yo
 This will show all your images as stories.
 
 ```js
-import Stories from "@hencypace/react-insta-stories-rtl";
+import Stories from "@hencydsouza24/react-insta-stories-rtl";
 
 const stories = [
   "https://example.com/pic.jpg",
