@@ -1,5 +1,18 @@
 ![Main image](https://i.imgur.com/OAL12S5.jpg)
 
+## Fork Notice
+
+This package is a maintained fork of  
+https://github.com/mohitk05/react-insta-stories
+
+Credits:
+
+- Original library by **[@mohitk05](https://github.com/mohitk05)**
+- RTL support implementation from **PR #330** by **[@<PR-author>](https://github.com/<PR-author>)**
+- Fork maintenance and npm distribution by **[@hencydsouza](https://github.com/hencydsouza)**
+
+RTL support enables proper layout behavior for right-to-left languages such as Arabic and Hebrew, including reversed progress bars, navigation, and keyboard controls.
+
 <h1 style="margin: 0" align="center">react-insta-stories</h1>
 <p align="center">A React component for Instagram like stories</p>
 
@@ -14,7 +27,7 @@
 ## Install
 
 ```bash
-npm install --save react-insta-stories
+npm install @hencypace/react-insta-stories-rtl
 ```
 
 ## Demo
@@ -27,7 +40,7 @@ See it in action here: https://mohitk05.github.io/react-insta-stories/
 ```jsx
 import React, { Component } from "react";
 
-import Stories from "react-insta-stories";
+import Stories from "@hencypace/react-insta-stories-rtl";
 
 const App = () => {
   return (
@@ -228,7 +241,7 @@ If you wish to have a bare minimum setup and only need to show image stories, yo
 This will show all your images as stories.
 
 ```js
-import Stories from "react-insta-stories";
+import Stories from "@hencypace/react-insta-stories-rtl";
 
 const stories = [
   "https://example.com/pic.jpg",
