@@ -8,7 +8,7 @@ https://github.com/mohitk05/react-insta-stories
 Credits:
 
 - Original library by **[@mohitk05](https://github.com/mohitk05)**
-- RTL support implementation from **PR #330** by **[@<PR-author>](https://github.com/<PR-author>)**
+- RTL support implementation from **PR #330** by **[@randilt](https://github.com/randilt)**
 - Fork maintenance and npm distribution by **[@hencydsouza](https://github.com/hencydsouza)**
 
 RTL support enables proper layout behavior for right-to-left languages such as Arabic and Hebrew, including reversed progress bars, navigation, and keyboard controls.
